@@ -1,13 +1,90 @@
 #include <iostream>
 #include <conio.h>
+#include <windows.h>
 #include <string.h>
+#include <bits/stdc++.h>
 //Hola Proyecto de optimizaión
 
 using namespace std;
 
 int main()
 {
-	cout << "Bienvenido a la Ouija, diga las palabras magicas [Solo si eres todopoderoso]"<<endl;
+	setlocale(LC_CTYPE, "Spanish");
+	Sleep(50);
+	system("color 1A");
+	Sleep(50);
+	system("color 2A");
+	Sleep(50);
+	system("color 3A");
+	Sleep(50);
+	system("color 4A");
+	Sleep(50);
+	system("color 5A");
+	Sleep(50);
+	system("color 6A");
+	Sleep(50);
+	system("color 7A");
+	Sleep(50);
+	system("color 8A");
+	Sleep(50);
+	system("color 9A");
+	Sleep(50);
+	system("color CA");
+	Sleep(50);
+	system("color AA");
+	Sleep(50);
+	system("color BA");
+	Sleep(50);
+	system("color DA");
+	Sleep(50);
+	system("color EA");
+	Sleep(50);
+	system("color FA");
+	Sleep(50);
+	system("color 1A");
+	Sleep(50);
+	system("color 2A");
+	Sleep(50);
+	system("color 3A");
+	Sleep(50);
+	system("color 4A");
+	Sleep(50);
+	system("color 5A");
+	Sleep(50);
+	system("color 6A");
+	Sleep(50);
+	system("color 7A");
+	Sleep(50);
+	system("color 8A");
+	Sleep(50);
+	system("color 9A");
+	Sleep(50);
+	system("color CA");
+	Sleep(50);
+	system("color AA");
+	Sleep(50);
+	system("color BA");
+	Sleep(50);
+	system("color DA");
+	Sleep(50);
+	system("color EA");
+	Sleep(50);
+	system("color FA");
+	Sleep(50);
+	system("color 0A");
+	char strrnd[10];
+    srand(time(NULL));
+    for(int j= 0; j < 400; j++)
+    {
+	    for(int i=0; i <= 9; i++)
+	    {
+	        strrnd[i] = 33 + rand() % (126 - 33);
+		}
+		Sleep(5);
+	    cout << strrnd;
+	}
+    system("cls");
+	cout << "Bienvenido a la Ouija, diga las palabras mágicas [Solo si eres todopoderoso]"<<endl;
 	char pass[1];
 	char pass2[1];
 	inicio:
@@ -64,13 +141,15 @@ int main()
 	cout << "a";
 	getchar();
 	getchar();
+	if(nom[0] == '.')
+	cout << "Los chamucos de la Ouija no estan disponibles el dia de hoy"<<endl;
+	else
 	cout<<endl << nom;
 	}
 	else
 	{
-		cout << "Tu eres un simple mortal" << endl ;
+		cout << "Tú eres un simple mortal" << endl ;
 		goto inicio;
 	}
 	getchar();
-	
 }
